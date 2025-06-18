@@ -35,7 +35,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <motion.div variants={itemVariants}>
       <Card className="group h-full overflow-hidden transition-all hover:shadow-lg">
         <div className="relative h-48 w-full overflow-hidden sm:h-64">
-          <Image
+          <img
             src={project.image}
             alt={project.title}
             fill
