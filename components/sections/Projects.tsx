@@ -9,7 +9,7 @@ const projects = [
     id: 1,
     title: "Zetbazar-Ecommerce",
     description: "A full-featured e-commerce platform built with Next.js, React Js, and Stripe for payments. Includes user authentication, product management, and order tracking.",
-    image: "./Ecommerce.jpg",
+    image: "./Public/Ecommerce.jpg",
     tags: ["Next.js", "React js", "Rest Api","Redux", "Tailwind CSS"],
     demoUrl: "https://www.zetbazar.com/",
     // githubUrl: "#",
