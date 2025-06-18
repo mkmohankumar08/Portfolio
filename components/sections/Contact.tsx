@@ -17,7 +17,7 @@ export default function Contact() {
   
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    setIsSubmitting(true)
+    setIsSubmitting(true) 
     
     // Simulate form submission
     setTimeout(() => {
@@ -25,7 +25,7 @@ export default function Contact() {
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon.",
-      })
+      } )
       
       // Reset form
       const form = e.target as HTMLFormElement
